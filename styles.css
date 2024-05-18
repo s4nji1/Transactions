@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: darkorchid;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: purple;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+th {
+    background-color:darkorchid;
+}
+
+#totalPrix,
+#nombreTransactions {
+    font-weight: bold;
+    font-size: 18px;
+}
