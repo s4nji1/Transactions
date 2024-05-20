@@ -1,6 +1,7 @@
 body {
+    background-color: #333;
     font-family: Arial, sans-serif;
-    background-color: antiquewhite;
+    color: whitesmoke;
 }
 
 .container {
@@ -10,8 +11,11 @@ body {
 }
 
 h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    text-align: center;
+    margin: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: whitesmoke 1px solid;
 }
 
 label {
@@ -30,14 +34,14 @@ button {
     font-size: 16px;
     padding: 10px 20px;
     cursor: pointer;
-    background-color: darkorchid;
+    background-color: #856088;
     color: #fff;
     border: none;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: purple;
+    background-color: #221225;
 }
 
 table {
@@ -55,7 +59,7 @@ th, td {
 }
 
 th {
-    background-color:darkorchid;
+    background-color: #856088;
 }
 
 #totalPrix,
